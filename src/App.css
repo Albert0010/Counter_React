@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container{
+  position: relative;
+  max-height: 350px;
+  padding: 5px;
+  margin: 5px;
+  border: solid lightgray;
+}
+.inputField{
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+}
+.configButton{
+  padding: 4px;
+  margin: 5px;
+}
+
+.input{
+  width: 250px;
+  font-size: 17px;
+  border-radius: 7px;
+  height: 25px;
+}
