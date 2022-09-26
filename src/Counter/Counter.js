@@ -7,7 +7,7 @@ export default class Counter extends Component{
             count:+(localStorage.getItem("count")),
             inputValueForMax:+(localStorage.getItem("inputValueForMax")),
             inputValueForMin:+(localStorage.getItem("inputValueForMin")),
-            step:+(localStorage.getItem("step")) || 1,
+            step:+(localStorage.getItem("step")) ,
         }
     }
     componentDidMount() {
